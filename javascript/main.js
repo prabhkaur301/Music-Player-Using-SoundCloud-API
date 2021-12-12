@@ -47,7 +47,7 @@ var soundCloud_API = {};
 soundCloud_API.init = function () {
   // initialise the object with api client_id
   SC.initialize({
-    client_id: "bda4ada8694db06efcac9cf97b872b3e",
+    client_id: "cd9be64eeb32d1741c17cb39e41d254d",
   });
 };
 soundCloud_API.init();
