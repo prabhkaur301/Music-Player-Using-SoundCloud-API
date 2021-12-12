@@ -25,27 +25,7 @@ UI.enter = function () {
     }
   });
 };
-// UI.loadNow=function(opacity){
-//   if(opacity<=0){
-//     displayContent();
-//   }
-//   else{
-//     loader.style.opacity=opacity;
-//     window.setTimeout(() => {
-//       UI.loadNow(opacity-0.05);
-      
-//     }, 100);
-//   }
-//   function displayContent(){
-//     loader.style.opacity="none";
-//     var content=getElementById(container);
-//     content.style.display="block;"
-//   }
-//   window.addEventListener("DOMContentLoaded",function(){
-//     var loader=document.getElementById("loader");
-//     UI.loadNow(1);
-//   })
-// }
+
 UI.clear = function () {
   var searchResults = document.querySelector(".js-search-results");
   searchResults.innerHTML = "";
@@ -67,7 +47,7 @@ var soundCloud_API = {};
 soundCloud_API.init = function () {
   // initialise the object with api client_id
   SC.initialize({
-    client_id: "cd9be64eeb32d1741c17cb39e41d254d",
+    client_id: "bda4ada8694db06efcac9cf97b872b3e",
   });
 };
 soundCloud_API.init();
